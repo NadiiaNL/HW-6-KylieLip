@@ -1,0 +1,31 @@
+@media ( max-width:470px){
+    .header-inner{
+        justify-content:center;
+        padding:15px 23px 20px;
+    }
+    .logo-title{
+        font-size:22px;
+    }
+    .logo-desc{
+        font-size:12px;
+    }
+    .logo-img{
+        width:42px;
+        height:42px
+    }
+    .header-nav,.phone-icon{
+        display:none;
+    }
+    .header-contacts{
+        font-size:13px;
+        flex-direction:row;
+        justify-content:space-between;
+        flex-grow:1;
+        margin-left:0;
+        margin-top:10px;
+    }
+    .phone:first-child .phone-link{
+        margin-left:0;
+    }
+    
+}
