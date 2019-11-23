@@ -18,17 +18,16 @@ body, html{
     align-items:center;
     position:relative;
 }
-.header-inner::after{
+.wave-bg::after{
     content:'';
     position:absolute;
     background: url('../img/wave.png');
-    transform:rotate(180deg);
     background-repeat: repeat-x;
     width:100%;
     height:23px;
-    bottom:0;
-    left:0;
-    
+    left:0; 
+    bottom:-11px;
+    z-index:3;
 }
 .logo-block{
     display:flex;
@@ -111,4 +110,128 @@ body, html{
     font-weight: 300;
     
 }
+/*==============Section offer====
+================================*/
+.offer-inner{
+    background: #e6e8db url('../img/advertisement-bg.jpg');
+    background-repeat:no-repeat;
+    background-position:right top;
+    background-size:cover;
+    display:flex;
+    padding:100px 0 90px;
+    max-height:611px;
+    position:relative;
+    text-align:center;
+}
+.offer-inner::after{
+    transform:rotate(180deg);
+}
+.offer-block{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    flex-basis:50%;
+}
+.offer-title{
+    font-size:48px;
+    font-family: 'Bebas Neue', sans-serif;
+    line-height:1;
+    margin-bottom:40px;
+}
+.offer-title span{
+    color:#d4416a;
+}
+.offer-text{
+    line-height:2;
+    margin-bottom:35px;
+    max-width:445px;
+    font-size:18px;
+}
+.text-left{
+    text-align:initial;
+}
+.btn{
+    color:#fff;
+    font-weight:1.6;
+    background: #d4416a;
+    text-transform: uppercase;
+    padding:20px 35px;
+    border-radius: 5px;
+    display:inline-block;
+    border-bottom:3px solid #ab3456;
+}
+.btn:hover{
+    border-bottom:3px solid #d4416a;
+}
+.offer-btn{
+    margin-bottom:10px;
+}
+.btn span{
+    font-weight:700;
+}
+
+.offer-img{
+    width:15.8%;
+    max-width:230px;
+    min-width:118px;
+    min-height:218px;
+    max-height: 423px;
+    height:76.35%;
+    background: url('../img/promotion_lip.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+/*    display:none;*/
+    position:absolute;
+    right:33.3%;
+    bottom:7.5%;
+}
+ 
+/*
+.offer-img::before{
+    content:'';
+    position:absolute;
+    background: url('../img/price.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    top:0;
+    left:0;
+    transform:translate(-50%,-50%);
+    max-width:135px;
+    min-width:73px;
+    width:32%;
+    min-height:73px;
+}
+*/
+.offer-price{
+    width:59.1%;
+    height:31.44%;
+    background: url('../img/price.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position:absolute;
+    top:0;
+    left:0;
+    transform:translate(-50%,-15%);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.offer-price-text{
+    font-size:28px;
+    line-height:1;
+    color:#fff;
+    font-weight:500; 
+    text-align:center;
+    transform:rotate(15deg);
+    text-transform: uppercase;
+}
+.offer-price-text span{
+    display:block;
+    font-size:0.7em;
+    font-weight:initial;
+}
+
+
 
