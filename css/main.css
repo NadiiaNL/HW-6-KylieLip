@@ -185,24 +185,6 @@ body, html{
     right:33.3%;
     bottom:7.5%;
 }
- 
-/*
-.offer-img::before{
-    content:'';
-    position:absolute;
-    background: url('../img/price.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    top:0;
-    left:0;
-    transform:translate(-50%,-50%);
-    max-width:135px;
-    min-width:73px;
-    width:32%;
-    min-height:73px;
-}
-*/
 .offer-price{
     width:59.1%;
     height:31.44%;
@@ -232,6 +214,72 @@ body, html{
     font-size:0.7em;
     font-weight:initial;
 }
-
+/*================Section about
+===============================*/
+/*===========/////Section about
+================================*/
+.about-inner{
+    padding:80px 30px 70px 30px;
+    background: url('../img/about-lip.png');
+    background-repeat: no-repeat;
+    background-position:96% 98%;
+    position:relative;
+}
+.about-inner::after{
+    bottom:-23px;
+    height:35px;
+}
+.about-title{
+    font-size:36px;
+    line-height:1;
+    font-family: 'GothamPro', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:#d4416a;
+    margin-bottom:55px;
+    text-align:center;
+}
+.about-block{
+    display:flex;
+}
+.about-img{
+    width: 340px;
+    height: 340px;
+    background: #d47e96 url('../img/about-photo.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    opacity:0.9;
+    border-radius:50%;
+}
+.about-information{
+    flex-basis:60%;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    padding-right:150px;
+    padding-bottom:60px;
+    margin-left:30px;
+    min-height:500px;
+}
+.about-photo{
+    margin-left:auto;
+    margin-right:30px;
+    align-self:flex-start;
+}
+.about-text{
+    font-size:16px;
+    line-height:2.1;
+    max-width:760px;
+    margin-bottom:70px;
+    margin-top:auto;
+    
+}
+.about-text span{
+    font-weight:700;
+}
+.about-btn{
+    margin-bottom:40px;
+}
 
 

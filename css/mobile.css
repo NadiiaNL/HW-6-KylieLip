@@ -27,5 +27,22 @@
     .phone:first-child .phone-link{
         margin-left:0;
     }
-    
+    .about-inner{
+      padding:15px 20px;
+    }
+    .about-information{
+        flex-basis:100%;
+    }
+    .about-title{
+        font-size:18px;
+        margin-bottom:20px;
+    }
+    .about-img{
+        width:138px;
+        height:137px;
+    }
+    .btn{
+        font-size:14px;
+        margin-bottom:20px;
+    }
 }

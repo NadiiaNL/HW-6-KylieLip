@@ -14,6 +14,33 @@
     .offer-text{
         font-size:14px;
     }
+    .about-inner{
+        padding:55px 65px 30px;
+        background: initial;
+    }
+    .about-title{
+        font-size: 28px;
+        line-height:1.3;
+    }
+    .about-information{
+        padding:0;
+        margin-left:0;
+        flex-basis:70%;
+        min-height:auto;
+    }
+    .about-text{
+        font-size:14px;
+        line-height:2.6;
+        max-width:611px;
+        margin-bottom:30px;
+    }
+    .about-photo{
+        margin-right:15px;
+    }
+    .about-img{
+        width: 228px;
+        height: 227px;
+    }
 }
 @media (max-width:1024px){
     .header-inner{
@@ -41,7 +68,7 @@
         margin-bottom:30px;
     }
     .offer-text{
-        max-width:300px;
+        max-width:350px;
         margin-bottom:10px;
     }
 }
@@ -84,6 +111,17 @@
     }
     .offer-text p.text-left{
         text-align:center;
+    }
+    .about-block{
+        flex-wrap:wrap;
+        justify-content:center;
+        text-align:center;
+    }
+    .about-photo{
+        margin:0 0 20px;
+    }
+    .about-information{
+        flex-basis:100%;
     }
 
 }
