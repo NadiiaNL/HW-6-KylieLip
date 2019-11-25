@@ -34,6 +34,9 @@ body, html{
     align-items: center;
     margin-right:15px;
 }
+.logo-link{
+    color:#333;
+}
 .logo-img{
     margin-right:5px;
 }
