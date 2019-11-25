@@ -91,6 +91,10 @@
     .offer-img{
         margin-right:40px;
     }
+    .offer-img-product{
+    min-width: 118px;
+    min-height: 219px;
+        
 }
 @media (max-width:768px){
     .header-inner{
