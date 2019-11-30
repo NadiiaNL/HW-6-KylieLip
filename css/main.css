@@ -3,12 +3,16 @@ body, html{
     font-size: 16px;
     font-weight: 400;
     color: #333;
+    background: #F0EBE8;
 }
 .container{
     max-width:1549px;
     width:100%;
     margin:0 auto;
     background-color: #f0ebe8;
+}
+.header{
+    position:relative;
 }
 .header-inner{
     padding:27px 30px;
@@ -115,6 +119,10 @@ body, html{
 }
 /*==============Section offer====
 ================================*/
+.offer{
+    background:linear-gradient(to left, #dfe1d3, #e0e2d5);
+    position:relative;
+}
 .offer-inner{
     background:linear-gradient(to left, #dfe1d3, #e0e2d5);
     position:relative;
@@ -123,7 +131,7 @@ body, html{
     text-align:center;
 }
 
-.offer-inner::after{
+.offer::after{
     transform:rotate(180deg);
 }
 .offer-img-face{
